@@ -1,4 +1,4 @@
 # BootStrapComponent
 Component
 
-![alt text](Content/2263.jpg)
+![alt text](wenjunGG.github.io/Content/2263.jpg)
