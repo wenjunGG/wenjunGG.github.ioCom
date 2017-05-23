@@ -12,8 +12,8 @@
       <div class="container">
           <form>
               <div class="form-group">
-                  <label for="exampleInputEmail">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email" >
+                  <label  for="exampleInputEmail" >Email address</label><!--class="sr-only" 同样可以隐藏-->
+                  <input type="email" class="form-control"  id="exampleInputEmail" placeholder="Email"  >
               </div>
 
               <div class="form-group">
@@ -23,18 +23,81 @@
 
               <div class="form-group">
                   <lable for="exampleInputPassword2">Password</lable>
-                  <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                  <input type="password" class="form-control" style="width: auto" id="exampleInputPassword2" placeholder="Password">
               </div>
 
               <div class="form-group">
                   <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <input type="password" class="form-control" style="width: auto" id="exampleInputPassword1" placeholder="Password">
               </div>
 
              <label class="label-info">上面同样是PassWord,但是效果不一样,Why?</label>
 
+              <div class="form-group">
+                  <label for="exampleInputFile">Input File</label>
+                  <input type="file" id="exampleInputFile" >
+                  <p class="help-block">请输入上传的文件</p>
+              </div>
 
+              <div class="form-group">
+                  <label for="exampleCheck">复选框</label>
+                  <input type="checkbox" id="exampleCheck">
+              </div>
+
+              <div class="checkbox">
+                  <label >
+                      <input type="checkbox">Check me out
+                  </label>
+
+              </div>
+              <button type="submit" class="btn btn-info">Submit</button>
           </form>
+          <br><br>
+          <label class="label-info">内联表单</label>
+          <div class="form-inline">
+              <div class="form-group" style="width:auto">
+                  <label for="exampleInputUserName3">UserName</label>
+                  <input type="text" class="form-control" id="exampleInputUserName3" placeholder="UserName">
+              </div>
+              <div class="form-group " style="width:auto">
+                  <label for="exampleInputPassWord3"  >PassWord</label>
+                  <input type="password" class="form-control" id="exampleinputpassword3" placeholder="PassWord">
+              </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+
+          <br>
+          <form class="form-inline">
+              <div class="form-group">
+                  <label class="sr-only" for="exampleInputEmail4">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group">
+                  <label class="sr-only" for="exampleInputPassword4">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword4" placeholder="Password">
+              </div>
+              <div class="checkbox">
+                  <label>
+                      <input type="checkbox"> Remember me
+                  </label>
+              </div>
+              <button type="submit" class="btn btn-default">Sign in</button>
+          </form>
+          <br>
+          <br>
+          <form class="form-inline">
+                  <div class="form-group">
+                      <label  class="sr-only" for="exampleInputAount5">Amout</label>
+                      <div class="input-group">
+                          <div class="input-group-addon">$</div>
+                          <input type="text" class="form-control" placeholder="Amout">
+                          <div class="input-group-addon">.00</div>
+                      </div>
+                  </div>
+              <button type="submit" class="btn btn-success">submit</button>
+          </form>
+
       </div>
+
 </body>
 </html>
